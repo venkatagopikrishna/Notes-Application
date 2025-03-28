@@ -28,8 +28,8 @@
     "zustand": "^4.5.5"
   },
   "scripts": {
-    "dev": "NODE_ENV=development nodemon backend/server.js",
-    "start": "cross-env NODE_ENV=production node backend/server.js",
+    "dev": "NODE_ENV=development nodemon server/server.js",
+    "start": "cross-env NODE_ENV=production node server/server.js",
     "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend"
   },
   "eslintConfig": {
