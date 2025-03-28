@@ -1,7 +1,7 @@
 # Node modules
 frontend/node_modules/
 server/node_modules/
-
+node_modules
 # Environment variables
 server/.env
 
